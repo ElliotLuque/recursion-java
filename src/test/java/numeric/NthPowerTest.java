@@ -8,22 +8,32 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 public class NthPowerTest {
 
     @Test
+    void itShouldGiveZeroPower() {
+        double number = 2.0;
+        double power = 0.0;
+
+        double result = NthPower.nthPower(number, power);
+
+        assertEquals(result, 1.0);
+    }
+
+    @Test
     void itShouldGiveFifthPower() {
-       double real = 2.0;
+       double number = 2.0;
        double power = 5.0;
 
-       double result = NthPower.nthPower(real, power);
+       double result = NthPower.nthPower(number, power);
 
        assertEquals(result, 32.0);
     }
 
     @Test
-    void itShouldNotGiveFourthPower() {
-        double real = 2.0;
+    void itShouldGiveIncorrectPower() {
+        double number = 2.0;
         double power = 4.0;
 
-        double result = NthPower.nthPower(real, power);
+        double result = NthPower.nthPower(number, power);
 
-        assertNotEquals(result, 20.0);
+        assertNotEquals(result, 17.0);
     }
 }
