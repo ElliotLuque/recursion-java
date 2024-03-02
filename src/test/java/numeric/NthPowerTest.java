@@ -14,7 +14,7 @@ public class NthPowerTest {
 
         double result = NthPower.nthPower(number, power);
 
-        assertEquals(result, 1.0);
+        assertEquals(1.0, result);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class NthPowerTest {
 
        double result = NthPower.nthPower(number, power);
 
-       assertEquals(result, 32.0);
+       assertEquals(32.0, result);
     }
 
     @Test
@@ -34,6 +34,6 @@ public class NthPowerTest {
 
         double result = NthPower.nthPower(number, power);
 
-        assertNotEquals(result, 17.0);
+        assertNotEquals(17.0, result);
     }
 }

@@ -14,7 +14,7 @@ public class EuclideanDivisionRemainderTest {
 
         int result = EuclideanDivisionRemainder.euclideanRemainder(dividend, divisor);
 
-        assertEquals(result, 31);
+        assertEquals(31, result);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class EuclideanDivisionRemainderTest {
 
         int result = EuclideanDivisionRemainder.euclideanRemainder(dividend, divisor);
 
-        assertEquals(result, 5);
+        assertEquals(5, result);
     }
 
     @Test
@@ -34,6 +34,6 @@ public class EuclideanDivisionRemainderTest {
 
         int result = EuclideanDivisionRemainder.euclideanRemainder(dividend, divisor);
 
-        assertNotEquals(result, 0);
+        assertNotEquals(0, result);
     }
 }
