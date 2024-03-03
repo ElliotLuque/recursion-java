@@ -2,7 +2,7 @@ package numeric;
 
 public class NthPower {
    /**
-    * Returns the value of the real number raised to n
+    * Returns the value of a real number raised to n
     * @param number The base
     * @param n The exponent
     * @return The result of number^n
