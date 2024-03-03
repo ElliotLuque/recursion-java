@@ -15,9 +15,3 @@ public class DigitsCount {
         return 1 + digitsCount(number / 10);
     }
 }
-/*
-33
-
-33/10 = 3
-3/10 = 0
- */
