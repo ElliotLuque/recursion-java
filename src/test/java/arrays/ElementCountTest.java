@@ -10,12 +10,12 @@ public class ElementCountTest {
     @Test
     void itShouldGiveCorrectCount() {
         int search = 4;
-        int[] array = {1, 4, 2, 4, 4, 7, 9};
+        int[] array = {1, 4, 2, 4, 4, 7, 4};
         int pos = 0;
 
         int result = ElementCount.elementCount(array, search, pos);
 
-        assertEquals(3, result);
+        assertEquals(4, result);
     }
 
     @Test

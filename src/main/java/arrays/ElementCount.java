@@ -11,7 +11,7 @@ public class ElementCount {
     public static int elementCount(int[] array, int search, int pos) {
         int count = 0;
 
-        if (pos == array.length - 1) { return 0; }
+        if (pos == array.length) { return 0; }
         else if (array[pos] == search) { count++; }
 
         return count + elementCount(array, search, pos + 1);
