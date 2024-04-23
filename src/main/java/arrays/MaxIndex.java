@@ -1,7 +1,6 @@
 package arrays;
 
 public class MaxIndex {
-
     /**
      * Returns the index of the maximum integer in the array
      * @param array The array of integers
